@@ -4,14 +4,14 @@ import { Head } from "@inertiajs/vue3";
 </script>
 
 <template>
-    <Head title="Dashboard" />
+    <Head title="Service Desk" />
 
     <AuthenticatedLayout>
         <template #header>
             <h2
                 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight"
             >
-                Dashboard
+                Service Desk
             </h2>
         </template>
 
@@ -21,7 +21,7 @@ import { Head } from "@inertiajs/vue3";
                     class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg"
                 >
                     <div class="p-6 text-gray-900 dark:text-gray-100">
-                        You're logged in!
+                        Service Desk
                     </div>
                 </div>
             </div>

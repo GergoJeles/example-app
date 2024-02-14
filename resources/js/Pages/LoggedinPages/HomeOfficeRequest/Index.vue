@@ -1,10 +1,11 @@
 <script setup>
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout.vue";
 import { Head } from "@inertiajs/vue3";
+import FormComponent from "@/Pages/LoggedinPages/HomeOfficeRequest/Form/Index.vue";
 </script>
 
 <template>
-    <Head title="HomeOfficeRequest" />
+    <Head title="Home Office Request" />
 
     <AuthenticatedLayout>
         <template #header>
@@ -21,7 +22,7 @@ import { Head } from "@inertiajs/vue3";
                     class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg"
                 >
                     <div class="p-6 text-gray-900 dark:text-gray-100">
-                        Home Office Request
+                        <FormComponent />
                     </div>
                 </div>
             </div>

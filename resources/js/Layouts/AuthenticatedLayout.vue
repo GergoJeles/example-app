@@ -44,12 +44,62 @@ const showingNavigationDropdown = ref(false);
                                 class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex"
                             >
                                 <NavLink
+                                    :href="route('phonebook')"
+                                    :active="route().current('phonebook')"
+                                >
+                                    Phonebook
+                                </NavLink>
+                            </div>
+                            <div
+                                class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex"
+                            >
+                                <NavLink
+                                    :href="route('tatmaps')"
+                                    :active="route().current('tatmaps')"
+                                >
+                                    TATmaps
+                                </NavLink>
+                            </div>
+                            <div
+                                class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex"
+                            >
+                                <NavLink
+                                    :href="route('servicedesk')"
+                                    :active="route().current('servicedesk')"
+                                >
+                                    Service Desk
+                                </NavLink>
+                            </div>
+                            <div
+                                class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex"
+                            >
+                                <NavLink
+                                    :href="route('trainingrequest')"
+                                    :active="route().current('trainingrequest')"
+                                >
+                                    Training Request
+                                </NavLink>
+                            </div>
+                            <div
+                                class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex"
+                            >
+                                <NavLink
                                     :href="route('homeofficerequest')"
                                     :active="
                                         route().current('homeofficerequest')
                                     "
                                 >
                                     Home Office Request
+                                </NavLink>
+                            </div>
+                            <div
+                                class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex"
+                            >
+                                <NavLink
+                                    :href="route('myapplications')"
+                                    :active="route().current('myapplications')"
+                                >
+                                    My Applications
                                 </NavLink>
                             </div>
                         </div>
